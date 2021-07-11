@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@docker://django-on-docker_web:latest/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$/services/app" remote-root="/home/app/web" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@docker-compose://[D:\Desk\django-on-docker\docker-compose.yml, D:\Desk\django-on-docker\docker-compose.prod.yml]:web/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$/services/app" remote-root="/home/app/web" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
